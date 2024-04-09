@@ -2,7 +2,9 @@
 
 // Функція має повертати масив усіх користувачів, відсортованих за спаданням кількостій їх друзів (властивість friends).
 
-
+const sortByDescendingFriendCount(users) = function {
+  
+}
 
 console.log(
   sortByDescendingFriendCount([
