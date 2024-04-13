@@ -5,9 +5,7 @@
 // Функція має використовувати ланцюжок виклику методів та повертати загальний баланс користувачів (властивість balance), стать яких (властивість gender) збігається зі значенням параметра gender.
 
 const getTotalBalanceByGender = (users, gender) => { 
-  const totalBalance = 0;
-  const balanceByGender = users.filter(user => user.gender === gender).map(user => user.balance).reduce((totalBalance, balance) => totalBalance + balance);
-
+  const balanceByGender = users.filter(user => user.gender === gender).map(user => user.balance).reduce((totalBalance, balance) => totalBalance + balance, 0);
 
   console.log(`---------Task 4---------`);
   return balanceByGender;
