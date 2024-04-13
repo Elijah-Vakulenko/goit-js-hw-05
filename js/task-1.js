@@ -5,6 +5,8 @@
 const getUserNames = (users) => {
   const names = users.map(user => user.name) 
   
+  console.log(`---------Task 1---------`);
+  
   return names;
 }
 
